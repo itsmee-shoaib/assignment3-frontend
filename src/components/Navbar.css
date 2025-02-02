@@ -1,5 +1,7 @@
 .navbar {
-    background-color: #333;
+    background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     color: white;
     padding: 15px 20px;
     display: flex;

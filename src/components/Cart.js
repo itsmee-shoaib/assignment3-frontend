@@ -8,7 +8,7 @@ const Cart = () => {
 
     return (
         <div className="container mt-4">
-            <h2>Your Cart</h2>
+            <h2 className='your-crt'>Your Cart</h2>
             {cart.products.length === 0 ? (
                 <p>Your cart is empty.</p>
             ) : (
@@ -57,7 +57,7 @@ const Cart = () => {
                 </table>
             )}
             <div className="d-flex justify-content-end mt-3">
-                <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
+                <h3 className='your-crt'>Total Price: ${totalPrice.toFixed(2)}</h3>
             </div>
         </div>
     );

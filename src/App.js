@@ -10,7 +10,7 @@ function App() {
         <CartProvider>
             <Navbar />
             <div className="container">
-                <h1>Product Catalog</h1>
+                <h1 className="prod-catlog">Product Catalog</h1>
                 <ProductList />
                 <Cart />
             </div>
